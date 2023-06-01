@@ -1,0 +1,1 @@
+Have a compilation-inserted variable in the code that says the platform, so that the code can check this to tell which interop functions to use to communicate with the platform
