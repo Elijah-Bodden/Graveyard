@@ -1,0 +1,1 @@
+Treat each of the windows created by dividing on the lines of fixed-time events as its own separate optimization complex (A BOX? LIKE IN THE PACKING PROBLEM?) and then select which events to put into each box, and arrange based on preferred time windows.
