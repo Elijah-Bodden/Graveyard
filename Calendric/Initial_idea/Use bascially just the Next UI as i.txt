@@ -1,0 +1,1 @@
+Use bascially just the Next UI as it is with very minimal changes beyond changing the scheme from /category to /[realm]/category. It is perfectly functional and basically ready to use, if a bit minimal, as-is once I do a bit of re-blocking and styling
