@@ -10,5 +10,5 @@ meant really doomed the project. Also, the high probability that it would fail e
 
 Some choice cuts of code from this one:
 - The 404 page
-| <img src="./.assets/Spacy.gif.gif"/> |
-| <p align="center"><i>Looks sick, right?</i></p> |  
+<img src="./.assets/Spacy.gif.gif"/>
+<p align="center"><i>Looks sick, right?</i></p>
