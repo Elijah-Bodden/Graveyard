@@ -1,0 +1,19 @@
+@media screen and (max-width:991px){
+    .header-mob {
+        transition: transform .7s ease 0s;
+        display: block !important;
+        position: fixed;
+        width: 100vw;
+        backdrop-filter: blur(2px);
+        padding: 3px;
+        bottom: 100%;
+        background-color: rgba(0,0,0,0.08);
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .header-mob-expanded {
+        transform: translateY(100%);
+    }
+}

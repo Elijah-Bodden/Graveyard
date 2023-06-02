@@ -1,0 +1,80 @@
+#logout-container {
+    display: none;
+}
+
+.auth-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.main-wrapper {
+    background-color: white;
+}
+
+.body {
+    background-color: #174472;
+}
+
+.header-grid_component {
+    min-height: 0;
+    height: auto;
+}
+
+.fakeElem {
+    background-color: transparent;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#authContainerContainer {
+    flex-grow: 1;
+}
+
+.header-left_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    #firebaseui-auth-container {
+        max-width: 90%;
+        padding: 3%;
+    }
+    .header_image {
+        visibility: hidden;
+    }
+    .fakeElem  {
+        position: relative;
+        min-width: 100vw;
+        top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-home-header {
+        height: auto;
+    }
+    .header-grid_component {
+        display: flex;
+    }
+}
+
+.mdl-card {
+    box-shadow: none !important;
+}
+
+.subtleLink {
+    color: #0e5caa;
+    text-decoration: underline;
+}
+
+.heading-2 .login {
+    text-align: center;
+}

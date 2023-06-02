@@ -1,0 +1,67 @@
+  .major-card {
+    display: -ms-grid;
+    display: grid;
+    width: 80%;
+    min-height: 0rem;
+    margin-top: 46px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    align-items: start;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    border-radius: 11px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.14);
+    font-family: manrope, sans-serif;
+  }
+  
+  .post-heading {
+    color: #052d56;
+    font-size: 1.75rem;
+    display: flex;
+    width: auto;
+    margin: 0 0 0 0;
+  }
+  
+  .profile-image {
+    width: 35px;
+  }
+  
+  .profile-link {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    text-decoration: none;
+  }
+  
+  .post-paragraph {
+    color: #355376;
+    margin-top: 0;
+  }
+
+  .username {
+    color: #6f747a;
+    margin: 0;
+  }
+  
+  .toggle-text[data-hide="no"] {
+    display: block;
+  }
+
+  .toggle-text[data-hide="yes"] {
+    display: none;
+  }
+  
+  .data-image {
+    max-width: 100%;
+    margin-top: 10px;
+  }

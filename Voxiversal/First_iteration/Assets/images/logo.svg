@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(255,255,255,0)"/>
+<g transform="matrix(3.7708 0 0 3.7708 723.5936 413.8893)" id="path0">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(84,180,212); fill-rule: evenodd; opacity: 1;" transform=" translate(-259.7535, -184.185)" d="M 200.705 225.315 C 200.469 225.769 190.503 242.969 190.503 242.969 L 202.122 242.969 L 212.741 242.969 L 282.073 106.641 C 282.073 106.641 322.188 106.591 322.75 105.957 C 323.806 104.764 330.859 90.282 330.859 89.307 C 330.859 87.886 271.11 87.891 271.11 87.891 M 212.305 260.923 L 188.648 261.133 L 198.585 280.479 L 223.589 280.273 C 223.589 280.273 309.007 112.852 308.79 112.502 C 308.638 112.256 288.711 112.109 288.711 112.109" stroke-linecap="round"/>
+</g>
+<g transform="matrix(3.7708 0 0 3.7708 273.268 500.0021)" id="path1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(4,44,84); fill-rule: evenodd; opacity: 1;" transform=" translate(-140.3285, -207.0217)" d="M 68.359 88.581 C 68.359 88.96 76.915 106.641 76.915 106.641 L 89.843 106.641 C 89.843 106.641 186.234 298.166 191.119 308.098 C 202.428 331.092 200.888 330.324 207.809 316.423 L 212.298 307.407 C 212.298 307.407 111.328 107.612 111.328 107.267 C 111.328 106.723 121.68 106.686 121.68 106.686 C 121.68 106.686 169.788 205.11 182.325 229.297 C 189.583 243.299 189.385 242.969 190.542 242.969 C 191.577 242.969 191.215 243.554 196.683 233.046 L 200.729 225.271 C 200.729 225.271 133.813 88.816 133.48 88.379 C 132.799 87.486 68.359 87.685 68.359 88.581" stroke-linecap="round"/>
+</g>
+</svg>

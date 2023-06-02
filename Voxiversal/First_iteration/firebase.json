@@ -1,0 +1,68 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ],
+  "hosting": {
+    "public": "Assets",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/.int.*"
+    ],
+    "rewrites": [ 
+    {
+      "source": "/",
+      "destination": "/home/index.html"
+    },
+    {
+      "source": "/signin",
+      "destination": "/login/index.html"
+    }, 
+    {
+      "source": "/agora",
+      "destination": "/agora/index.html"
+    },
+    {
+      "source": "/polls",
+      "destination": "/polls/index.html"
+    },
+    {
+      "source": "/datastream", 
+      "destination": "/datastream/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy/index.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms/index.html"
+    }
+  ]  
+  }
+}
