@@ -1,0 +1,6 @@
+This one's pretty much summed up by an early-stage note I made:
+Build a new calendar tool, with a robust system of rearrangable blocks which will reorient based upon deferrals, and require you to check in after every task to see if you successfully completed it, need more time, etc; events roll over to the next day, highest priority are set first on the schedule, you can have exclusion zones into which events will not clip, and shorter events will arange around to fill the time surrounding, and tasks will lengthen or shorten slightly to accomodate surroundings. This should act as a solution for time\mutable personal tasks which you do not want to assign an exact time to, as plans like this get derailed easily, and can be a pain in the ass.
+
+So, basically just Google Calendar but it *sometimes* tries to write your schedule for you, and will adjust if it needs to. I wonder why that could have failed?
+# Post-mortem
+If I really cared that much about this one, I could have just written a Chrome extension for it or something. There was no reason to start trying to write an entire fullstack, multi-platform Go app for a marginal improvement on an existing service. Also, the very idea of a self-rearranging schedule is really untractable. It's far from clear what algorithm you would choose for block placement, and if there is one, it's probably NP-hard.
