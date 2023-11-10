@@ -3,4 +3,4 @@ Build a new calendar tool, with a robust system of rearrangable blocks which wil
 
 So, basically just Google Calendar but it *sometimes* tries to write your schedule for you, and will adjust if it needs to. I wonder why that could have failed?
 # Post-mortem
-If I really cared that much about this one, I could have just written a Chrome extension for it or something. There was no reason to start trying to write an entire fullstack, multi-platform Go app for a marginal improvement on an existing service. Also, the very idea of a self-rearranging schedule is really untractable. It's far from clear what algorithm you would choose for block placement, and if there is one, it's probably NP-hard.
+If I really cared that much about this one, I could have just written a Chrome extension for it or something. There was no reason to start trying to write an entire fullstack, multi-platform Go app for a marginal improvement on an existing service. Also, the very idea of a self-rearranging schedule is really intractable. It's far from clear what algorithm you would choose for block placement, and if there is one, it's probably NP-hard.
